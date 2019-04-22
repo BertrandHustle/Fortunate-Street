@@ -1,6 +1,7 @@
 package player
 
 type Player struct {
-	name   string
-	assets int
+	Name       string
+	Assets     int       //total money
+	Properties []*string //owned properties
 }
