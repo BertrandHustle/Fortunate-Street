@@ -1,12 +1,9 @@
 package main
 
-type Property struct {
-	baseCost   int
-	cost       int
-	group      string
-	investment int
-	owner			  
+import (
+	"fmt"
+)
 
-	// calculate total cost of property
-	func(calcCost)
+func main() {
+	fmt.Println("test")
 }
